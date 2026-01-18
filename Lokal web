@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BeritaKu</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background:#f4f4f4; }
+    header { background:#0d47a1; color:white; padding:15px; text-align:center; }
+    nav { background:#1976d2; padding:10px; }
+    nav a { color:white; margin-right:15px; text-decoration:none; font-weight:bold; }
+    .container { padding:20px; }
+    .card { background:white; padding:15px; margin-bottom:15px; border-radius:8px; box-shadow:0 2px 5px rgba(0,0,0,0.1); }
+    footer { background:#0d47a1; color:white; text-align:center; padding:10px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BeritaKu</h1>
+    <p>Portal Berita Sederhana</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Nasional</a>
+    <a href="#">Internasional</a>
+    <a href="#">Teknologi</a>
+  </nav>
+
+  <div class="container">
+    <div class="card">
+      <h2>Judul Berita Pertama</h2>
+      <p><small>18 Januari 2026</small></p>
+      <p>Ini adalah contoh isi berita. Anda bisa mengganti teks ini dengan berita terbaru.</p>
+    </div>
+
+    <div class="card">
+      <h2>Judul Berita Kedua</h2>
+      <p><small>18 Januari 2026</small></p>
+      <p>Website ini dibuat menggunakan HTML dan CSS sederhana.</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 BeritaKu</p>
+  </footer>
+</body>
+</html>
